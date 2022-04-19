@@ -1,0 +1,241 @@
+@font-face {
+    font-family: iranSans;
+    src: url('../fonts/iranSans.ttf');
+}
+
+* {
+    font-family: iranSans;
+
+}
+
+a.nav-link {
+    transition: .6s;
+    color: rgb(0, 0, 0) !important;
+    margin: 0px 10px;
+}
+
+a.nav-link:hover {
+    transition: 0.6s;
+    color: rgb(0, 193, 252) !important;
+}
+
+.dropdown-menu.show {
+border-bottom: 3px solid #44ffff;
+border-radius: 5px 5px 5px 5px;
+}
+
+.search {
+    margin-top: 100px;
+    margin-left: 25%;
+}
+.input2{
+
+    border-radius: 25px 0px 0px 25px;
+    margin-right: -6px;
+    margin-top: 5px;
+}
+
+input.input {
+
+    width: 50%;
+    display: inline;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.search-mobile {
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.input2-mobile{
+
+    border-radius: 25px 0px 0px 25px;
+    margin-right: -6px;
+    margin-top: 5px;
+}
+
+input.input-mobile {
+
+    width: 65%;
+    display: inline;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.contant-text{
+    margin-top: 80px;
+    padding: 25px 50px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px; 
+    border-left: 2px solid rgb(0, 119, 255); 
+    border-right: 2px solid rgb(0, 119, 255);
+    text-align: center;
+    box-shadow: 0px 5px 10px 10px rgba(51, 51, 51, 0.123);
+}
+
+.footer2{
+    text-align: center;
+    background-color: #0CB1B5;
+    padding: 20px 0;
+    line-height: 32px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.footer{
+    margin-top: 100px;
+    text-align: right;
+    background-color: #1f20241e;
+    padding: 20px 0;
+    line-height: 32px;
+    font-size: 13px;
+    color: #000000;
+}
+
+ui{
+    list-style-type: none;
+}
+
+.list{
+    margin-right: 50px;
+    padding-right: 20px;
+    border-right: 2px solid rgb(0, 174, 255);
+    width: 15%;
+    
+
+
+}
+
+a.footer-link{
+    color: rgb(0, 0, 0) ;
+    transition: 0.6s;
+    text-decoration: none;
+}
+
+a.footer-link:hover{
+    transition: 0.6s;
+    color: rgb(0, 174, 255) ;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer3{
+    font-size: 24px;
+    position: absolute;
+    margin-top: -120px;
+    margin-right:60%;
+    border-bottom: 3px solid rgb(0, 174, 255) ;
+}
+
+.boxes{
+    margin-top: 80px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 8px 8px rgba(1, 1, 1, 0.034);
+    transition: .5s;
+    text-decoration: none;
+}
+
+.boxes:hover{
+    margin-top: 60px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 8px 8px rgba(1, 1, 1, 0.034);
+    transition: .5s;
+    text-decoration: none;
+}
+
+.boxes-texts{
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+}
+.boxes-image{
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+.blog{
+    position: relative;
+    width: 66.66667%;
+    padding: 20px;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 25px;
+    box-shadow: 0px 0px 4px 4px rgba(196, 196, 196, 0.26);
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.blog-r{
+
+    margin-top: -230px;
+    position:unset;
+    display: inline-block;
+    width: 32.3333%;
+    padding: 20px;
+    font-size: 20px;
+    text-align: right;
+    box-shadow: 0px 0px 4px 4px rgba(196, 196, 196, 0.26);
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.blog-r p#title{
+    color:rgb(0, 174, 255);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(0, 174, 255) ;
+    font-size: 16px;
+
+}
+
+.blog p#title{
+display: inline-block;
+
+
+}
+
+.blog p#desciption{
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.comment{
+    text-align: right;
+    margin-top:10px;
+    width: 66.66667%;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 0px 0px 4px 4px rgba(196, 196, 196, 0.26);
+    border: 1px solid rgb(196, 196, 196);
+    border-right: 2px solid rgb(0, 174, 255);
+    border-bottom: 2px solid rgb(0, 174, 255);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.user-comment{
+    padding:10px;
+    border-radius: 5px;
+    border-right: 2px solid rgb(0, 201, 84);
+
+    background-color: rgb(234, 245, 234);
+}
+
+.user-comment p{
+    font-size: 16px;
+}
+
+.user-comment span{
+    transition: .5s;
+    font-size: 13px;
+}
+
+.user-comment span:hover{
+    transition: .5s;
+    font-size: 14px;
+}
