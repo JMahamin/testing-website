@@ -198,28 +198,31 @@ background-color: #eaeaea;
 }
 
 .token{
+border-left: 4px solid #00B0F6;
 margin-right: 15%;
 margin-top: 80px;
 padding: 10px;
 border-radius: 4px;
 width: 70%;
 text-align: right;
-background-color: #FFF2AF ;
+background-color: #2f3136 ;
 
 }
 
 .token p#title{
+color: #ffffff ;
 font-weight: 900;
 text-shadow:0px 0px 2px #ffffff;
 }
 .token p#des{
+color: #ffffff ;
 line-height:30px;
 margin-top:25px;
 }
 #new-tag{
 	display: block;
 	margin-top:-32px;
-	color: #424242 ;
+	color: #ffffff ;
 	font-weight: 900;
 	text-align:left;
 	text-shadow:0px 0px 2px #4B4B4B;
