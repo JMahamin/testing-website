@@ -9,117 +9,43 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
 
 </head>
 
-<body dir="rtl">
-  <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">درسخــون</a>
+<body dir="rtl" id="body">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
+  <div class="container">
+    <a class="navbar-brand" href="#" id="titleheader">Emerald RolePlay</a>
+	
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="http://localhost/blog/">صفحه اصلی <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">سوالات تستی</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">درسنامه</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            پایه ها
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">پنجم</a>
-            <a class="dropdown-item" href="#">ششم</a>
-            <a class="dropdown-item" href="#">هفتم</a>
-          </div>
-        </li>
+		<a href="https://discord.gg/xb4EjcgmyH">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16" id="discord-icon">
+		<path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+		</svg>
+		</a>
       </ul>
     </div>
+	</div>
   </nav>
-  <div class="d-block d-lg-none">
-    <div class="search-mobile">
-      <form method="post">
-        <input type="text" placeholder="دنبال چی میگردی ؟" class="form-control input-mobile">
-        <input type="submit" value="جستجو" class="btn btn-info input2-mobile">
-      </form>
-    </div>
-  </div>
-  <div class="container">
-    <div class="d-none d-lg-block">
-      <div class="search">
-        <form method="post">
-          <input type="text" placeholder="دنبال چی میگردی ؟" class="form-control input">
-          <input type="submit" value="جستجو" class="btn btn-info input2">
-        </form>
-      </div>
-    </div>
 
+  <div class="container" id="main-container">
 
-
-    <div class="contant-text">
-      <span style="font-size: 13px;">درسخون یک منبع بزرگ است که هدفش ، کمک به دانش آموزان در یادگیری و پیشرفت است .
-        مطالب درسخون کاملا اختصاصیست
-        و کپی مطالب تنها با ذکر منبع (درسخون) مجاز می باشد.</span>
-    </div>
-
-
-    <div class="col-12 col-lg-4">
-      <a href="blog/index.html">
-        <div class="boxes">
-          <img src="image/test.jpg" alt="image" width="100%" class="boxes-image">
-          <div class="boxes-texts">
-            <p>این یک مطلب تستی است</p>
-            <span style="font-size: 13px; color:rgb(131, 131, 131);">این یک مطلب تستی برای تست کردن تست است و ...</span>
-          </div>
-        </div>
-      </a>
-    </div>
-
-
-
-
+	<div class="contect">
+	<img class="screenshot" src="https://media.discordapp.net/attachments/961725106147704902/974626543756275772/unknown.png?width=693&height=390" height="30%">
+	<p>هدف ما سروری با امکانات و رول پلی سطح بالاست . تیم دولوپری ما همواره در حال تلاش برای بهبود امکانات سرور است و تیم منیجر ما همواره در حال تلاش برای پیشرفت سرور است . سرور امرالد رول پلی با ایونت های هفتگی ، میزبان شما عزیزان است . در ادامه با سرور امرالد رول پلی بیشتر آشنا می شوید .</p>
+	</div>
 
   </div>
 
-  <div class="footer">
-    <div class="list">
-      <ui>
-        <a href="http://localhost/blog/" class="footer-link">
-          <li>صفحه اصلی</li>
-        </a>
-        <a href="" class="footer-link">
-          <li>درسنامه</li>
-        </a>
-        <a href="" class="footer-link">
-          <li>پنجم</li>
-        </a>
-        <a href="" class="footer-link">
-          <li>ششم</li>
-        </a>
-        <a href="" class="footer-link">
-          <li>هفتم</li>
-        </a>
-      </ui>
-    </div>
 
-    <div class="footer3">
-      <p>درسخــون</p>
-    </div>
 
-  </div>
-
-  <div class="footer2">
-    <p>کلیه حقوق مادی و معنوی این سایت متعلق به درسخــون است.</p>
-  </div>-->
-<h1>برو بچه کونی دارم اپدیت میدم :D</h1>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
