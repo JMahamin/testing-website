@@ -170,9 +170,11 @@ background-color: #eaeaea;
 }
 
 #main-container {
+	margin-bottom:40px;
+	margin-top:30px;
 	background-color: #ffffff;
 	border-radius: 5px;
-	padding: 3em 3em;
+	padding: 3em 1em;
 }
 
 #header{
@@ -192,5 +194,44 @@ background-color: #eaeaea;
 	line-height: 40px;
 	text-align: right;
 	margin-top: -170px;
-	margin-right: 450px;
+	margin-right: 44%;
+}
+
+.token{
+margin-right: 15%;
+margin-top: 80px;
+padding: 10px;
+border-radius: 4px;
+width: 70%;
+text-align: right;
+background-color: #FFF2AF ;
+
+}
+
+.token p#title{
+font-weight: 900;
+text-shadow:0px 0px 2px #ffffff;
+}
+.token p#des{
+line-height:30px;
+margin-top:25px;
+}
+#new-tag{
+	display: block;
+	margin-top:-32px;
+	color: #424242 ;
+	font-weight: 900;
+	text-align:left;
+	text-shadow:0px 0px 2px #4B4B4B;
+}
+
+.footer{
+	background-color: #f8f9fa;
+	border-top: 1px solid #eaeaea;
+}
+
+#footertext{
+margin-left: 30%;
+margin-top: 20px;
+margin-bottom: 20px;
 }
